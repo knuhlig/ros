@@ -1,4 +1,5 @@
 #include <ros/ros.h>
+#include <msg_util/Msg.h>
 
 #define NODE_NAME "example_node"
 
@@ -11,7 +12,7 @@ int main(int argc, char** argv){
   int count = 0;
   
   while (ros::ok()) {
-    ROS_INFO("hello world, count=%d", count);
+    Msg::publishString("chatter", "Hello world!");
     count++;
     
     loop_rate.sleep();

@@ -13,6 +13,7 @@
   <depend package="visualization_msgs"/>
   <depend package="geometry_msgs"/>
   <depend package="tf"/>
+  <depend package="msg_util"/>
 
 </package>
 
