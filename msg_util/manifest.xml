@@ -1,0 +1,19 @@
+<package>
+  <description brief="msg_util">
+
+     msg_util
+
+  </description>
+  <author>Karl Uhlig</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/msg_util</url>
+  <depend package="roscpp"/>
+  <depend package="nav_msgs"/>
+  <depend package="visualization_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+
